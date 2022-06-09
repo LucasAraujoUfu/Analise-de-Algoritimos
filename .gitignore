@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# images
+*.png
+*.jpg
+
+# inputs outputs
+*.txt
