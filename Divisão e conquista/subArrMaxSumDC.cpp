@@ -33,8 +33,11 @@ pair<int,int> maxSum(int *v,int in, int fm){
 
 
 int main(){
-    int v[8] = {1,-2,3,4,4,3,-2,1};
-    pair<int,int> res = maxSum(v,0,7);
+	int n;
+	scanf("%d",&n);
+    int v[n]; //= {1,-2,3,4,4,3,-2,1};
+    for(int i=0;i<n;i++)cin>>v[i];
+    pair<int,int> res = maxSum(v,0,n-1);
     printf("%d, %d\n",res.F,res.S);
     return 0;
 }
